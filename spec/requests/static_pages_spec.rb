@@ -1,3 +1,5 @@
+
+
 require 'spec_helper'
 
 describe "Static pages" do
@@ -30,7 +32,7 @@ describe "Static pages" do
     end
   end
 
-   describe "About page" do
+  describe "About page" do
 
     it "should have the h1 'About Us'" do
       visit '/static_pages/about'
@@ -44,3 +46,4 @@ describe "Static pages" do
     end
   end
 end
+
